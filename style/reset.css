@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Forum";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     src: local("Forum"),
          url("/fonts/Forum-Regular.ttf") format("ttf")
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: "Gilroy";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     src: local("Gilroy"),
          url("/fonts/Gilroy-Thin.ttf") format("ttf")
 }
