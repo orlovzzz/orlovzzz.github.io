@@ -1,0 +1,184 @@
+#black-block {
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.enter {
+    margin-top: 20px;
+    width: 100%;
+    height: 730px;
+    background: black;
+}
+
+#name, #enter, #onmain, #lomb, #shops {
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-column-gap: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+#or {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+    font-family: Gilroy;
+}
+
+#sign-in, #sign-up {
+    border-radius: 20px;
+    height: 400px;
+    background: white;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 150%;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+#sign-in-span {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 320px;
+    width: 100%;
+    position: relative;
+}
+
+#sign-in-span input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 8px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+#sign-in-pass {
+    margin-top: 50px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 120%;
+    font-family: Gilroy;
+}
+
+input:focus {
+    color: white;
+    background: black;
+}
+
+#sign-in-span button, #sign-up-b  {
+    margin-top: 50px;
+    height: 40px;
+    width: 120px;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-family: GIlroy;
+    font-size: 120%;
+    transition: all 0.5s;
+}
+
+#sign-up-b {
+    margin-top: 10px;
+    width: 300px;
+}
+
+#button-sign-in {
+    width: 100%;
+    text-align: center;
+}
+
+#sign-in-enter:hover, #sign-up-b:hover  {
+    background: orange;
+    border: none;
+}
+
+#dark {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+#capcha {
+    position: absolute;
+    top: 30%;
+    background: white;
+    color: black;
+    text-align: center;
+    left: 40%;
+    height: 215px;
+    width: 410px;
+    z-index: 2;
+    border-radius: 10px;
+    display: none;
+}
+
+#errorlogin, #errorpassin {
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    color: red;
+    font-size: 70%;
+}
+
+#errorpassin {
+    top: 200px;
+}
+
+#sign-up {
+    height: 500px;
+}
+
+#sign-up-span {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 320px;
+    justify-content: center;
+    grid-row-gap: 15px;
+    position: relative;
+}
+
+#errorlogup, #errorpassup, #errorreppass, #nameup, #surup {
+    color: red;
+    position: absolute;
+    font-size: 70%;
+    left: 43px;
+}
+
+#nameup {
+    top: 62px;
+}
+
+#surup {
+    top: 136px;
+}
+
+#errorlogup {
+    top: 212px;
+}
+
+#errorpassup {
+    top: 287px;
+}
+
+#errorreppass {
+    top: 363px;
+}

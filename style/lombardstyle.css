@@ -1,0 +1,179 @@
+#black-block {
+    width: 100%;
+    height: 120px;
+    background: black;
+}
+
+#name, #enter, #onmain, #lomb, #shops {
+    color: white;
+}
+
+.lombard {
+    height: 700px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.lombard h1 {
+    font-family: Gilroy;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.pricegrid {
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    grid-column-gap: 150px;
+}
+
+.augrid, .aggrid {
+    display: grid;
+    background: white;
+    border-radius: 10px;
+    grid-template-columns: 100%;
+    grid-row-gap: 1px;
+    color: black;
+}
+
+.aggrid {
+    height: 300px;
+}
+
+.au, .ag {
+    background: gold;
+    font-size: 150%;
+    font-family: Gilroy;
+    padding-top: 20px;
+    height: 40px;
+    font-weight: bolder;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ag {
+    background: silver;
+}
+
+.f {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: normal;
+    font-size: 120%;
+}
+
+.l {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.calc {
+    height: 720px;
+    width: 100%;
+    background: black;
+    padding-top: 50px;
+}
+
+.calc h1, .calc h2, #aub, #agb, .calc button {
+    color: white;
+    text-align: center;
+    font-family: Gilroy;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.calc button {
+    color: black;
+}
+
+.calc h2 {
+    padding-top: 20px;
+    font-size: 150%;
+}
+
+#auagb {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 60px;
+    background: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: black;
+    grid-column-gap: 2px;
+    border-radius: 10px;
+}
+
+#aub, #agb {
+    border: none;
+    color: black;
+}
+
+#aub {border-bottom-left-radius: 10px; border-top-left-radius: 10px;}
+#agb {border-bottom-right-radius: 10px; border-top-right-radius: 10px;}
+
+#aupchoice, #agpchoice {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin-top: 30px;
+    background: black;
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#agpchoice {
+    display: none;
+    height: 100px;
+    top: 0;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    position: relative;
+}
+
+#sum {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    width: 150px;
+    height: 30px;
+    color: black;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#input {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-column-gap: 5px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+#input button, #input input {
+    font-size: 100%;
+    font-family: Gilroy;
+    font-weight: bolder;
+}
+
+#weight {
+    margin-top: 240px;
+}

@@ -1,0 +1,62 @@
+#logo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    top: 10px;
+    display: grid;
+    grid-template-columns: 185px 185px auto 185px 185px;
+    grid-column-gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dia1, #dia2 {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    top: 27px;
+    left: 98px;
+}
+
+#dia2 {
+    left: 179px;
+}
+
+#name {
+    color: white;
+    font-family: Forum;
+    font-size: 500%;
+    letter-spacing: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#enter, #onmain, #lomb, #shops {
+    color: white;
+    font-family: Gilroy;
+    font-size: 130%;
+    text-align: center;
+}
+
+#logo a {
+    text-decoration: none;
+    color: white;
+}
+
+#logodia {
+    position: relative;
+}
+
+.main {
+    position: relative;
+    width: 2650px;
+}
+
+@media (max-width: 1920px) {
+    .main {
+        width: 1920px;
+    }
+}

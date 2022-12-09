@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "ForumRegular";
+    src: url("../fonts/ForumRegular/ForumRegular.eot");
+    src: url("../fonts/ForumRegular/ForumRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ForumRegular/ForumRegular.woff") format("woff"),
+    url("../fonts/ForumRegular/ForumRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
