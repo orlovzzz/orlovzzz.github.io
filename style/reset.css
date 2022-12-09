@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+         url("/fonts/Forum-Regular.ttf") format("ttf")
+  }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
