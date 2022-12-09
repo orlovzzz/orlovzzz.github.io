@@ -13,11 +13,11 @@
     background: none;
     position: absolute;
     border: none;
-    width: 280px;
+    width: 320px;
     height: 50px;
     outline: solid 2px white;
     color: white;
-    font-family: Forum;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     top: 670px;
     left:50%;
     transform:translateX(-50%);
@@ -33,11 +33,11 @@
     transform: translateX(-50%);
     top: 1450px;
     height: 50px;
-    width: 280px;
+    width: 300px;
     border: none;
     background: black;
     color: white;
-    font-family: Forum;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -85,8 +85,8 @@
 }
 
 #kat h1 {
-    font-family: Forum;
-    font-size: 500%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 350%;
     font-weight: bolder;
 }
 
@@ -120,8 +120,9 @@
     font-weight: bold;
     letter-spacing: 3px;
     top: 270px;
-    left: 100px;
-    font-family: Forum;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     z-index: 3;
 }
@@ -143,12 +144,10 @@
     border-radius: 10px;
 }
 
-#manchain {left: 120px;}
-#brasletman {left: 93px;}
-#kole {left: 113px;}
-#sergi {left: 108px;}
-#brosh {left: 112px}
-#podveska {left: 85px;}
+#manchain, #brasletman, #kole, #sergi, #brosh, #podveska {
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #gridotdel {
     margin-top: 50px;
@@ -172,7 +171,7 @@
     width: 100%;
     background: black;
     color: white;
-    font-family: Forum;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     text-align: center;
     padding-top: 70px;
@@ -196,9 +195,9 @@
     text-underline-offset: 5px;
     font-weight: 550;
     letter-spacing: 3px;
-    font-family: Forum;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
     margin-top: 70px;
     height: 50px;
-    width: 300px;
+    width: 320px;
 }

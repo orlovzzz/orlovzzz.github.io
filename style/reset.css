@@ -1,19 +1,3 @@
-@font-face {
-    font-family: "Forum";
-    font-style: normal;
-    font-weight: 100;
-    src: local("Forum"),
-         url("/fonts/Forum-Regular.ttf") format("ttf")
-}
-
-@font-face {
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 100;
-    src: local("Gilroy"),
-         url("/fonts/Gilroy-Thin.ttf") format("ttf")
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

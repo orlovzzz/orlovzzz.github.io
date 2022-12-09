@@ -17,7 +17,7 @@
 }
 
 .lombard h1 {
-    font-family: Gilroy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 200%;
 }
@@ -48,7 +48,7 @@
 .au, .ag {
     background: gold;
     font-size: 150%;
-    font-family: Gilroy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 20px;
     height: 40px;
     font-weight: bolder;
@@ -82,7 +82,7 @@
 .calc h1, .calc h2, #aub, #agb, .calc button {
     color: white;
     text-align: center;
-    font-family: Gilroy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 200%;
 }
@@ -170,7 +170,7 @@
 
 #input button, #input input {
     font-size: 100%;
-    font-family: Gilroy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 
