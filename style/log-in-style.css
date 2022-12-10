@@ -11,7 +11,7 @@
     background: black;
 }
 
-#name, #enter, #onmain, #lomb, #shops {
+#name, #enter, #onmain, #lomb, #shops, #about {
     color: black;
 }
 
@@ -105,6 +105,10 @@ input:focus {
     border: none;
 }
 
+#sign-in-enter, #sign-up-b {
+    text-align: center;
+}
+
 #dark {
     content: "";
     position: absolute;
@@ -133,14 +137,15 @@ input:focus {
 
 #errorlogin, #errorpassin {
     position: absolute;
-    top: 80px;
+    top: 73px;
     left: 45px;
     color: red;
     font-size: 70%;
+    font-weight: 100;
 }
 
 #errorpassin {
-    top: 200px;
+    top: 193px;
 }
 
 #sign-up {
@@ -160,25 +165,20 @@ input:focus {
     color: red;
     position: absolute;
     font-size: 70%;
-    left: 43px;
+    font-weight: 100;
+    top: 53px;
 }
 
-#nameup {
-    top: 62px;
+.signupdiv {
+    margin-top: 10px;
+    position: relative;
 }
 
-#surup {
-    top: 136px;
+input {
+    width: 100%;
+    transition: all 1s;
 }
 
-#errorlogup {
-    top: 212px;
-}
-
-#errorpassup {
-    top: 287px;
-}
-
-#errorreppass {
-    top: 363px;
+#qwe-b {
+    margin-top: 10px;
 }

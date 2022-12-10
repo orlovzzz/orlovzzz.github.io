@@ -1,7 +1,7 @@
 #mainImg {
     position: relative;
     width: 100%;
-    height: 920px;
+    height: 950px;
 }
 
 #imgM {
@@ -13,7 +13,7 @@
     background: none;
     position: absolute;
     border: none;
-    width: 320px;
+    width: 350px;
     height: 50px;
     outline: solid 2px white;
     color: white;
@@ -33,7 +33,7 @@
     transform: translateX(-50%);
     top: 1450px;
     height: 50px;
-    width: 300px;
+    width: 350px;
     border: none;
     background: black;
     color: white;
@@ -79,7 +79,7 @@
 
 #kat {
     margin-top: 50px;
-    height: 300px;
+    height: 250px;
     width: 100%;
     text-align: center;
 }
@@ -199,5 +199,14 @@
     font-size: 150%;
     margin-top: 70px;
     height: 50px;
-    width: 320px;
+    width: 350px;
+    color: black;
+}
+
+#man {
+    color: white;
+}
+
+#woman, #child {
+    color: black;
 }

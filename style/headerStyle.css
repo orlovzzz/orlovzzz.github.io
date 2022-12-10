@@ -5,8 +5,8 @@
     height: 100px;
     top: 10px;
     display: grid;
-    grid-template-columns: 185px 185px auto 185px 185px;
-    grid-column-gap: 80px;
+    grid-template-columns: 155px 155px 155px auto 155px 155px 155px;
+    grid-column-gap: 30px;
     align-items: center;
     justify-content: center;
     margin-left: auto;
@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-#enter, #onmain, #lomb, #shops {
+#enter, #onmain, #lomb, #shops, #about {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 130%;

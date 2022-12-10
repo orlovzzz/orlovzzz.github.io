@@ -1,5 +1,78 @@
 #black-block {
     width: 100%;
     height: 100px;
+    background: white;
+}
+
+#name, #enter, #onmain, #lomb, #shops, #about {
+    color: black;
+}
+
+.katalog {
+    margin-top: 20px;
+    width: 100%;
+    height: 401px;
     background: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.mankat {
+    color: white;
+    text-align: center;
+}
+
+.mankat h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 350%;
+    font-weight: bolder;
+}
+
+.manotdgrid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(6, 250px);
+    justify-content: center;
+    grid-column-gap: 70px;
+}
+
+.manblock {
+    height: 300px;
+    outline: solid 1px gray;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.manblock p {
+    margin-top: 10px;
+    font-style: normal;
+    font-family: 'Times New Roman';
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.imggrid {
+    width: 250px;
+    height: 200px;
+}
+
+.manblock:hover {
+    transform: scale(1.05);
+    background: white;
+    color: black
+}
+
+#buy {
+    height: 30px;
+    width: 100px;
+    margin-top: 25px;
+    background: black;
+    background: #fadadd;
+    border: none;
+    border-radius: 5px;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0;
+    transition: all 0.5s;
+    transition-delay: 0.2s;
 }

@@ -139,7 +139,7 @@ document.getElementById("sign-up-b").addEventListener("click", function() {
 
     if ((checkSobaka(log.value) == false || checkPoint(log.value) == false) && log.value.length != 0) {
         logE.innerHTML = "Неверный адрес";
-    } else {
+    } else  if (log.value.length != 0) {
         logE.innerHTML = "";
     }
 
