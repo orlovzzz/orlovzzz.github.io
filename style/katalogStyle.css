@@ -2,24 +2,29 @@
     width: 100%;
     height: 100px;
     background: white;
+    margin-bottom: 20px;
 }
 
 #name, #enter, #onmain, #lomb, #shops, #about {
     color: black;
 }
 
-.katalog {
+/* .katalog {
     margin-top: 20px;
     width: 100%;
-    height: 401px;
+    height: auto;
     background: black;
     padding-top: 30px;
     padding-bottom: 50px;
-}
+} */
 
 .mankat {
     color: white;
     text-align: center;
+    height: 401px;
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .mankat h1 {
@@ -57,7 +62,7 @@
 }
 
 .manblock:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     background: white;
     color: black
 }
@@ -75,4 +80,19 @@
     opacity: 0;
     transition: all 0.5s;
     transition-delay: 0.2s;
+}
+
+.womankat {
+    background: white;
+    color: black;
+    padding-bottom: 60px;
+}
+
+.womanblock:hover {
+    background: black;
+    color: white;
+}
+
+#buy.changemargin {
+    margin-top: 10px;
 }

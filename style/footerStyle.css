@@ -2,7 +2,7 @@ footer {
     width: inherit;
     height: 300px;
     display: grid;
-    grid-template-columns: 355px 285px 285px 355px;
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
     grid-column-gap: 100px;
     margin-top: 100px;
@@ -23,7 +23,7 @@ footer {
 .spangrid {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 290px;
+    grid-template-columns: auto;
     grid-row-gap: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 130%;

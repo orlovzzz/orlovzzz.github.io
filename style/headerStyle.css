@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 #logo {
     position: absolute;
     width: 100%;
@@ -5,24 +9,13 @@
     height: 100px;
     top: 10px;
     display: grid;
-    grid-template-columns: 155px 155px 155px auto 155px 155px 155px;
-    grid-column-gap: 30px;
+    grid-template-columns: repeat(7, auto);
+    grid-column-gap: 150px;
     align-items: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-#dia1, #dia2 {
-    position: absolute;
-    width: 30px;
-    height: 25px;
-    top: 27px;
-    left: 98px;
-}
-
-#dia2 {
-    left: 179px;
+    z-index: 2;
 }
 
 #name {
@@ -51,8 +44,73 @@
     width: 2650px;
 }
 
-@media (max-width: 1920px) {
-    .main {
-        width: 1920px;
-    }
+.main {
+    width: auto;
+}
+
+.adaptspan {
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(6, auto);
+    grid-column-gap: 50px;
+}
+
+.adaptspan::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: white;
+    top: 25px;
+}
+
+#menu {
+    display: none;
+    background: none;
+    color: white;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: auto;
+    position: absolute;
+    border: none;
+    left: 600px;
+
+}
+
+#blackmenu {
+    display: none;
+    height: 430px;
+    width: 100%;
+    position: absolute;
+    background: black;
+    grid-template-columns: auto;
+    grid-row-gap: 0;
+    padding-top: 130px;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#blackmenu a {
+    height: 10px;
+}
+
+#blackmenu::after, #blackmenu::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 110px;
+    left: 0;
+}
+
+#blackmenu::after {
+    top: 530px;
 }

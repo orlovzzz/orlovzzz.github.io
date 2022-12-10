@@ -1,0 +1,210 @@
+@media (max-width: 2100px) {
+    #logo {
+        grid-column-gap: 100px;
+    }
+}
+
+@media (max-width: 1800px) {
+    #logo {
+        grid-column-gap: 50px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(5, 200px);
+    }
+}
+
+@media (max-width: 1600px) {
+    footer {
+        grid-column-gap: 50px;
+    }
+}
+
+@media (max-width: 1500px) {
+    #logo {
+        grid-column-gap: 25px;
+    }
+
+    footer {
+        grid-column-gap: 25px;
+    }
+}
+
+@media (max-width: 1310px) {
+    .adapt {
+        display: none;
+    }
+
+    #logo {
+        grid-template-columns: auto;
+        margin-top: 20px;
+    }
+
+    .adaptspan {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1200px) {
+    .katgrid {
+        grid-column-gap: 10px;
+    }
+
+    .mangrid {
+        grid-column-gap: 25px;
+    }
+
+    footer {
+        grid-template-columns: 350px 350px;
+    }
+
+    .grid {
+        display: none;
+    }
+
+    #line1 {
+        display: none;
+    }
+
+    #imgM {
+        height: 780px;
+    }
+
+    #mainImg {
+        height: 780px;
+    }
+
+    #gokat {
+        top: 1300px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .katgrid {
+        grid-template-columns: auto;
+        grid-row-gap: 30px;
+    }
+
+    #kat {
+        height: 400px;
+    }
+
+    #gokat {
+        top: 1450px;
+    }
+}
+
+@media (max-width: 950px) {
+    .mangrid {
+        grid-template-columns: auto;
+        grid-row-gap: 30px;
+    }
+
+    #kat {
+        height: 1100px;
+    }
+
+    #gokat {
+        top: 2150px;
+    }
+}
+
+@media (max-width: 850px) {
+    #map {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+        justify-content: flex-start;
+        padding-left: 50px;
+        width: auto;
+    }
+
+    #menu {
+        display: block; 
+    }
+
+    .adaptspan {
+        display: none;
+    }
+
+    footer {
+        grid-template-columns: 350px;
+    }
+
+    #name {
+        font-size: 400%;
+        letter-spacing: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    #logo {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -20px;
+        padding-left: 0;
+    }
+
+    #menu {
+        left :50%;
+        transform: translateX(-50%);
+        top: 90px;
+    }
+
+    #blackmenu::before {
+        top: 125px;
+    }
+}
+
+@media (max-width: 520px) {
+    #name {
+        letter-spacing: 0;
+    }
+
+    #map {
+        height: 500px;
+    }
+}
+
+@media (max-width: 440px) {
+    #name {
+        font-size: 300%;
+    }
+}
+
+@media (max-width: 370px) {
+    footer {
+        grid-template-columns: 280px;
+    }
+
+    .footerspan h1 {
+        text-underline-offset: 3px;
+    }
+
+    #katalog {
+        width: 300px;
+        height: 75px;
+    }
+
+    #gokat {
+        width: 300px;
+    }
+
+    #bmap {
+        width: 300px;
+        height: 75px;
+    }
+
+    #ans {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 320px) {
+    #name {
+        font-size: 270%;
+    }
+}

@@ -67,7 +67,7 @@
     position: absolute;
     display: grid;
     top: 780px;
-    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-columns: repeat(5, 300px);
     grid-column-gap: 50px;
     left: 50%;
     transform:translateX(-50%);
@@ -75,6 +75,7 @@
 
 .grid img {
     height: 100px;
+    width: 100%;
 }
 
 #kat {
@@ -203,10 +204,29 @@
     color: black;
 }
 
+#woman, #child, #man {
+    color: black;
+    transition: all 1s;
+}
+
 #man {
     color: white;
 }
 
-#woman, #child {
-    color: black;
+#slogan {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 500px;
+    width: 100%;
+}
+
+#slogan p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    width: auto;
+    font-size: 170%;
+    font-weight: bolder;
+    text-align: center;
 }

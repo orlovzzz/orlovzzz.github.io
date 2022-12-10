@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="style/headerStyle.css">
         <link rel="stylesheet" href="style/footerStyle.css">
         <link rel="icon" href="pic/moon.png" type="image/png">
+        <link rel="stylesheet" href="style/adapt.css">
     </head>
     <body>
         <div class="main">
@@ -17,22 +18,40 @@
                 <a href="katalog.html"><button id="katalog">КАТАЛОГ ИЗДЕЛИЙ</button></a>
                 <div id="line1" class="line"></div>
                 <img id="imgM" src="pic/bgc.png" alt="" height="920px">
-                <header id="logo">
+                <div id="slogan"><p>Следуйте своей истинной страсти, пусть ваши драгоценности ведут вас!</p></div>
+                <div id="blackmenu">
                     <a href="index.html"><span id="onmain">Главная</span></a>
                     <a href="katalog.html"><span id="onmain">Каталог</span></a>
                     <a href="shops.html"><span id="shops">Магазины</span></a>
-                    <a href="index.html"><h1 id="name">MOONDARK</h1></a>
                     <a href="log-in.html"><span id="enter">Войти</span></a>
                     <a href="lombard.html"><span id="lomb">Ломбард</span></a>
-                    <a href=""><span id="about">О нас</span></a>
+                    <a href="about.html"><span id="about">О нас</span></a>
+                </div>
+                <span class="adaptspan">
+                    <a href="index.html"><span id="onmain">Главная</span></a>
+                    <a href="katalog.html"><span id="onmain">Каталог</span></a>
+                    <a href="shops.html"><span id="shops">Магазины</span></a>
+                    <a href="log-in.html"><span id="enter">Войти</span></a>
+                    <a href="lombard.html"><span id="lomb">Ломбард</span></a>
+                    <a href="about.html"><span id="about">О нас</span></a>
+                </span>
+                <header id="logo">
+                    <a class="adapt" href="index.html"><span id="onmain">Главная</span></a>
+                    <a class="adapt" href="katalog.html"><span id="onmain">Каталог</span></a>
+                    <a class="adapt" href="shops.html"><span id="shops">Магазины</span></a>
+                    <a href="index.html"><h1 id="name">MOONDARK</h1></a>
+                    <a class="adapt" href="log-in.html"><span id="enter">Войти</span></a>
+                    <a class="adapt" href="lombard.html"><span id="lomb">Ломбард</span></a>
+                    <a class="adapt" href="about.html"><span id="about">О нас</span></a>
+                    <button id="menu"><p>Меню</p></button>
                 </header>
 
                 <div class="grid">
-                    <img src="pic/buccellati.png" alt="" width="300px">
-                    <img src="pic/cartier.png" alt="" width="300px">
-                    <img src="pic/chopard.png" alt="" width="300px">
-                    <img src="pic/tiffany.png" alt="" width="300px">
-                    <img src="pic/boucheron.png" alt="" width="300px">
+                    <img src="pic/buccellati.png" alt="">
+                    <img src="pic/cartier.png" alt="">
+                    <img src="pic/chopard.png" alt="">
+                    <img src="pic/tiffany.png" alt="">
+                    <img src="pic/boucheron.png" alt="">
                 </div>
 
             </header>
@@ -108,7 +127,7 @@
                         <a class="animfooter" href="shops.html">Магазины</a>
                         <a class="animfooter" href="log-in.html">Вход/Регистрация</a>
                         <a class="animfooter" href="lombard.html">Ломбард</a>
-                        <a class="animfooter" href="">О нас</a>
+                        <a class="animfooter" href="about.html">О нас</a>
                     </span>
                 </span>
 
@@ -133,7 +152,7 @@
                 <span class="footerspan">
                     <h1>СОЦИАЛЬНЫЕ СЕТИ</h1>
                     <span class="spangrid">
-                        <p>Ищите нас в VK, Telegram, Одноклассниках</p>
+                        <p>Ищите нас в VK, <br>Telegram, Одноклассниках</p>
                         <span id="footerimggrid">
                             <img src="pic/vk.png" alt="">
                             <img src="pic/telegram.png" alt="">
@@ -145,5 +164,6 @@
         </div>
         <script src="script/otdelAnimation.js"></script>
         <script src="script/scroll.js"></script>
+        <script src="script/showmenu.js"></script>
     </body>
 </html>
