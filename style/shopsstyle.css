@@ -35,3 +35,20 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+#menu {
+    color: black;
+}
+
+#blackmenu {
+    color: black;
+    background: white;
+}
+
+#blackmenu::before, #blackmenu::after {
+    background: black;
+}
+
+.adaptspan::before {
+    background: black;
+}

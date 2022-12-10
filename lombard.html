@@ -14,22 +14,37 @@
     <body>
         <div class="main">
             <div id="black-block" class="line">
-                    <header id="logo">
-                        <a href="index.html"><span id="onmain">Главная</span></a>
-                        <a href="katalog.html"><span id="onmain">Каталог</span></a>
-                        <a href="shops.html"><span id="shops">Магазины</span></a>
-                        <a href="index.html"><h1 id="name">MOONDARK</h1></a>
-                        <a href="log-in.html"><span id="enter">Войти</span></a>
-                        <a href="lombard.html"><span id="lomb">Ломбард</span></a>
-                        <a href="about.html"><span id="about">О нас</span></a>
-                    </header>
+                <div id="blackmenu">
+                    <a href="index.html"><span id="onmain">Главная</span></a>
+                    <a href="katalog.html"><span id="onmain">Каталог</span></a>
+                    <a href="shops.html"><span id="shops">Магазины</span></a>
+                    <a href="log-in.html"><span id="enter">Войти</span></a>
+                    <a href="lombard.html"><span id="lomb">Ломбард</span></a>
+                    <a href="about.html"><span id="about">О нас</span></a>
+                </div>
+                <span class="adaptspan">
+                    <a href="index.html"><span id="onmain">Главная</span></a>
+                    <a href="katalog.html"><span id="onmain">Каталог</span></a>
+                    <a href="shops.html"><span id="shops">Магазины</span></a>
+                    <a href="log-in.html"><span id="enter">Войти</span></a>
+                    <a href="lombard.html"><span id="lomb">Ломбард</span></a>
+                    <a href="about.html"><span id="about">О нас</span></a>
+                </span>
+                <header id="logo">
+                    <a class="adapt" href="index.html"><span id="onmain">Главная</span></a>
+                    <a class="adapt" href="katalog.html"><span id="onmain">Каталог</span></a>
+                    <a class="adapt" href="shops.html"><span id="shops">Магазины</span></a>
+                    <a href="index.html"><h1 id="name">MOONDARK</h1></a>
+                    <a class="adapt" href="log-in.html"><span id="enter">Войти</span></a>
+                    <a class="adapt" href="lombard.html"><span id="lomb">Ломбард</span></a>
+                    <a class="adapt" href="about.html"><span id="about">О нас</span></a>
+                    <button id="menu"><p>Меню</p></button>
+                </header>
             </div>
 
             <div class="lombard">
                 <h1>ЦЕНЫ НА МЕТАЛЛЫ</h1>
                 <div class="pricegrid">
-                    <h1>Золото</h1>
-                    <h1>Серебро</h1>
                     <div class="augrid">
                         <span class="au f">
                                 <h2>Проба золота</h2>
@@ -100,8 +115,7 @@
                     <button id="aub">Золото</button>
                     <button id="agb">Серебро</button>
                 </div>
-                 <h2>Выберите пробу изделия</h2>
-                <div id="container">
+                 <h2 id="h2choice">Выберите пробу изделия</h2>
                     <div id="aupchoice">
                         <button class="aub" id="au1">375&deg</button>
                         <button class="aub" id="au2">500&deg</button>
@@ -118,7 +132,6 @@
                         <button class="agb" id="au3">925&deg</button>
                         <button class="agb" id="au4">960&deg</button>
                     </div>
-                </div>
                 <h2 id="weight">Вес в граммах</h2>
                 <div id="input">
                     <input id="weightC"type="text">
@@ -172,5 +185,6 @@
             </footer>
         </div>
         <script src="script/calc.js"></script>
+        <script src="script/showmenu.js"></script>
     </body>
 </html>

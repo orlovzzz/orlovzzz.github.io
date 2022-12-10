@@ -9,15 +9,6 @@
     color: black;
 }
 
-/* .katalog {
-    margin-top: 20px;
-    width: 100%;
-    height: auto;
-    background: black;
-    padding-top: 30px;
-    padding-bottom: 50px;
-} */
-
 .mankat {
     color: white;
     text-align: center;
@@ -25,6 +16,7 @@
     background: black;
     padding-top: 30px;
     padding-bottom: 60px;
+    height: 100%;
 }
 
 .mankat h1 {
@@ -95,4 +87,21 @@
 
 #buy.changemargin {
     margin-top: 10px;
+}
+
+.adaptspan::before {
+    background: black;
+}
+
+#menu {
+    color: black;
+}
+
+#blackmenu {
+    color: black;
+    background: white;
+}
+
+#blackmenu::before, #blackmenu::after {
+    background: black;
 }

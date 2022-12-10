@@ -7,7 +7,7 @@
 .enter {
     margin-top: 20px;
     width: 100%;
-    height: 730px;
+    height: 100%;
     background: black;
 }
 
@@ -15,13 +15,15 @@
     color: black;
 }
 
-.grid {
+.grid1 {
     display: grid;
     grid-template-columns: 400px 400px;
     grid-column-gap: 300px;
     justify-content: center;
     align-items: center;
     height: 90%;
+    margin-top: 30px;
+    padding-bottom: 50px;
 }
 
 #or {
@@ -42,6 +44,7 @@
     font-size: 150%;
     font-weight: 600;
     padding-top: 20px;
+    justify-content: center;
 }
 
 #sign-in-span {
@@ -127,7 +130,8 @@ input:focus {
     background: white;
     color: black;
     text-align: center;
-    left: 40%;
+    left: 50%;
+    transform: translateX(-50%);
     height: 215px;
     width: 410px;
     z-index: 2;
@@ -138,7 +142,8 @@ input:focus {
 #errorlogin, #errorpassin {
     position: absolute;
     top: 73px;
-    left: 45px;
+    left: 50%;
+    transform: translateX(-50%);
     color: red;
     font-size: 70%;
     font-weight: 100;
@@ -167,6 +172,8 @@ input:focus {
     font-size: 70%;
     font-weight: 100;
     top: 53px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .signupdiv {
@@ -181,4 +188,27 @@ input {
 
 #qwe-b {
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    color: black;
+}
+
+#blackmenu {
+    color: black;
+    background: white;
+}
+
+#blackmenu::before, #blackmenu::after {
+    background: black;
+}
+
+.adaptspan::before {
+    background: black;
+}
+
+#nameup, #surup, #errorlogup, #errorpassup, #errorreppass {
+    width: 100%;
 }
