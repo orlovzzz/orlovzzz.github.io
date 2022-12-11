@@ -5,6 +5,10 @@
     margin-bottom: 20px;
 }
 
+.main {
+    position: relative;
+}
+
 #name, #enter, #onmain, #lomb, #shops, #about {
     color: black;
 }
@@ -38,7 +42,7 @@
     height: 300px;
     outline: solid 1px gray;
     border-radius: 10px;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .manblock p {
@@ -105,4 +109,188 @@
 
 #blackmenu::before, #blackmenu::after {
     background: black;
+}
+
+#opis {
+    font-size: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+    transition-delay: 0.05s;
+    color: white;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.womanblock #opis {
+    color: black;
+}
+
+.manblock:hover #opis{
+    color: black;
+}
+
+.womanblock:hover #opis{
+    color: white;
+}
+
+#fon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    top: 0;
+}
+
+#buymodal {
+    width: 300px;
+    position: absolute;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    z-index: 6;
+    text-align: center;
+    padding-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+#buymodal h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+
+}
+
+#input {
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#inp {
+    width: 100%;
+}
+
+#inp input {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#inp p, #inps p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#input input {
+    height: 30px;
+    width: 85%;
+    border: solid 1px black;
+}
+
+#buttons {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#buttons button {
+    width: 130px;
+    color: black;
+    background: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
+    font-size: 120%;
+    transition: all 1s;
+}
+
+#buttons #sam {
+    background: black;
+    color: white;
+}
+
+#select {
+    position: relative;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#select select {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 100%;
+}
+
+#inps {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    display: none;
+}
+
+#inps input {
+    margin-top: 10px;
+    width: 100%;
+    border: solid 1px black;
+    height: 30px;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+#oform {
+    margin-top: 85px;
+    background: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    height: 40px;
+    width: 180px;
+    transition: all 0.5s;
+}
+
+#oform:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#close {cursor: pointer; position: absolute; border: none; left: 87%; top: 3.5%;}
+#close:before, #close:after {content: ""; position: absolute; width: 17px; height: 4px; background: red;}
+#close:before {transform: rotate(45deg);}
+#close:after {transform: rotate(-45deg);}
+
+#modtext, #zakaz {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 105%;
+    text-align: center;
+    opacity: 0;
+}
+
+#fon, #buymodal {
+    display: none;
+}
+
+#buy {
+    z-index: 10;
+}
+
+#zakaz {
+    top: 135px;
 }

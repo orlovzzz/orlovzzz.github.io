@@ -42,44 +42,90 @@
                 </header>
             </div>
 
+            <div id="fon"></div>
+            <div id="buymodal">
+                <h1>Оформление заказа</h1>
+                <button id="close"></button>
+                <div id="input">
+                    <div id="inp">
+                        <p>Введите имя</p>
+                        <input type="text">
+                    </div>
+                    <div id="inp">
+                        <p>Введите фамилию</p>
+                        <input type="text">
+                    </div>
+                    <div id="inp">
+                        <p>Введите номер телефона</p>
+                        <input type="text">
+                    </div>
+                </div>
+                <div id="buttons">
+                    <button id="sam">Самовывоз</button>
+                    <button id="dost">Доставка</button>
+                </div>
+                <div id="select">
+                    <select id="sel">
+                        <option id="f" value="0">ул. Студенческая, 33/3</option>
+                        <option id="s" value="1">площадь Киевского Вокзала, 2, ТЦ Европейский</option>
+                        <option id="t" value="2">ул. Большая Черемушкинская, 1, ТЦ РИО Севастопольский</option>
+                        <option id="th" value="3">ул. Воздвиженка, 14/1</option>
+                        <option id="f" value="4">Юрьевский пер., 15/1</option>
+                    </select>
+
+                    <div id="inps">
+                        <p>Введите адрес доставки</p>
+                        <input type="text">
+                    </div>
+                    <span id="modtext"></span>
+                    <span id="zakaz">Спасибо за заказ.</span>
+                </div>
+                <button id="oform">Оформить заказ</button>
+            </div>
                     <div id="manOTD" class="mankat">
                         <h1 id="manotd">ДЛЯ НЕГО</h1>
                         <div class="manotdgrid">
                             <div class="manblock">
-                                <img class="imggrid" src="pic/manring1.png" alt="">
-                                <p>31.657 &#8381</p>
-                                <p>Кольцо Beast</p>
+                                <img class="imggrid" src="pic/manring1.webp" alt="">
+                                <p>349.990 &#8381</p>
+                                <p>Кольцо с сапфиром</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Кольцо с сапфиром, бриллиантами из белого золота 750 пробы. Характеристики вставок: бриллиант 3/4 12шт.,0.3ct ; бриллиант 3/4 156шт.,0.79ct ; сапфир 2/2 84шт.,0.46ct. Средний вес изделия: 11,34 гр.</p>
                             </div>
                             <div class="manblock">
-                                <img class="imggrid" src="pic/manring2.png" alt="">
-                                <p>165.489 &#8381</p>
-                                <p>Кольцо Man`s Jew</p>
+                                <img class="imggrid" src="pic/manrign2.webp" alt="">
+                                <p>203.996 &#8381</p>
+                                <p>Кольцо "Волк"</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Кольцо "Волк" с цветными сапфирами и эмалью в белом золоте 750 пробы. Характеристики: сапфир цв.. Средний вес: 22,7 гр.</p>
                             </div>
                             <div class="manblock">
-                                <img class="imggrid" src="pic/manchain1.png" alt="">
-                                <p>67.487 &#8381</p>
-                                <p>Цепь Regular Chain</p>
+                                <img class="imggrid" src="pic/manchain1.webp" alt="">
+                                <p>71.990 &#8381</p>
+                                <p>Цепь из белого золота</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Цепь без вставок из белого золота 585 пробы. Средний вес: 8.42 гр.</p>
                             </div>
                             <div class="manblock">
-                                <img class="imggrid" src="pic/manchain2.png" alt="">
-                                <p>98.543 &#8381</p>
-                                <p>Цепь Miami</p>
-                                <button id="buy">Купить</button>
+                                <img class="imggrid" src="pic/manchain2.webp" alt="">
+                                <p>499.990 &#8381</p>
+                                <p>Цепь из красного золота</p>
+                                <button class="changemargin" id="buy">Купить</button>
+                                <p id="opis">Цепь без вставок из красного золота 585 пробы. Средний вес: 47.87 гр.</p>
                             </div>
                             <div class="manblock">
-                                <img class="imggrid" src="pic/manbrasl1.png" alt="">
-                                <p>12.678 &#8381</p>
-                                <p>Браслет Caesar</p>
+                                <img class="imggrid" src="pic/manbrasl1.webp" alt="">
+                                <p>109.990 &#8381</p>
+                                <p>Браслет "Guru"</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Антикварные сандаловые бусины (династия Мин, 1368-1644 г.г., Китай), антикварная бусина «Череп», выполненная из кости яка (около 150 лет, Тибет), кварц «Кошачий Глаз» 12мм, финальные бусины и замок "S" из 18-каратного жёлтого золота.</p>
                             </div>
                             <div class="manblock">
-                                <img class="imggrid" src="pic/manbrasl2.png" alt="">
-                                <p>57.483 &#8381</p>
-                                <p>Браслет Hematite</p>
-                                <button id="buy">Купить</button>
+                                <img class="imggrid" src="pic/manbrasl2.webp" alt="">
+                                <p>76.990 &#8381</p>
+                                <p>Браслет с бриллиантами</p>
+                                <button class="changemargin" id="buy">Купить</button>
+                                <p id="opis">Браслет с бриллиантами, кожей из красного золота 750 пробы. Характеристики вставок: 1 бриллиант кр57 0.01 кт 3/5, кожа. Средний вес изделия: 4,7 гр.</p>
                             </div>
                         </div>
                     </div>
@@ -90,8 +136,9 @@
                             <div class="manblock womanblock">
                                 <img class="imggrid" src="pic/womankole1.webp" alt="">
                                 <p>31.589.990 &#8381</p>
-                                <p>Колье Райские Птицы</p>
-                                <button id="buy">Купить</button>
+                                <p>Колье "Райские Птицы"</p>
+                                <button class="changemargin" id="buy">Купить</button>
+                                <p id="opis">Колье с 1020 бриллиантами, 15 изумрудами и 221 сапфирами из белого золота 585 пробы. Характеристики вставок: 1020 бриллиантов 7.197 карат, 15 изумрудов 45.815 карат, 221 сапфир 6.35 карат. Средний вес: 107,41 гр.</p>
                             </div>
 
                             <div class="manblock womanblock">
@@ -99,30 +146,37 @@
                                 <p>409.990 &#8381</p>
                                 <p>Колье с сапфиром</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Колье с желтым сапфиром, бриллиантами из белого золота 585 пробы. Характеристики вставок: бриллиант кр-57 1/4 2шт.,0.11ct; бриллиант кр-57 2/2 1шт.,0.12ct;
+                                бриллиант кр-57 3/3 19шт.,0.39ct; сапфир фантазийный овал 1шт.,1.95ct. Средний вес изделия: 6,22 гр.</p>
                             </div>
                             <div class="manblock womanblock">
                                 <img class="imggrid" src="pic/womansergi.webp" alt="">
                                 <p>41.990 &#8381</p>
                                 <p>Серьги с гранатом</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Серьги с гранатом из красного золота 585 пробы. Средний вес: 5,93 гр.</p>
                             </div>
                             <div class="manblock womanblock">
                                 <img class="imggrid" src="pic/womansergi2.webp" alt="">
                                 <p>409.990 &#8381</p>
                                 <p>Серьги с танзанитом</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Серьги с танзанитом, эмалью, бриллиантами из желтого золота 750 пробы. Характеристики вставок: бриллиант 30 кр 57-0,22-3/4а; бриллиант 4 кр 57-0,02-2/3а; танзанит 2 ов-1,77; эмаль цветная. Средний вес изделия: 8,59 гр..</p>
                             </div>
                             <div class="manblock womanblock">
                                 <img class="imggrid" src="pic/womanbrosh1.webp" alt="">
                                 <p>767.194 &#8381</p>
                                 <p>Брошь "Гранат"</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Брошь с рубином, сапфиром из желтого золота 585 пробы. Характеристики вставок: 11 рубин кр 0,236 1,5 5/3, 6 сапфир желтый (h) кр 0,071 1,25 2/2, 20 сапфир желтый (h) кр 0,129 1 2/2, 5 сапфир оранжевый (h) пластины 1,1 116. Средний вес изделия: 15,88 гр.
+                                </p>
                             </div>
                             <div class="manblock womanblock">
                                 <img class="imggrid" src="pic/womanbrosh2.webp" alt="">
                                 <p>15.990 &#8381</p>
                                 <p>Брошь "Колокольчик"</p>
                                 <button class="changemargin" id="buy">Купить</button>
+                                <p id="opis">Брошь "Колокольчик" с применением эмалево-филигранной техники из серебра 925 пробы. Характеристики вставок: эмаль. Средний вес: 16,22 гр.</p>
                             </div>
                         </div>
                     </div>
@@ -135,6 +189,7 @@
                                 <p>58.990 &#8381</p>
                                 <p>Серьги "Бабочки"</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Серьги с ониксом из желтого золота 585 пробы. Характеристики вставок: 2 оникс фант. 1,03 ct. Средний вес изделия: 2,02 гр.</p>
                             </div>
 
                             <div class="manblock childblock">
@@ -142,30 +197,35 @@
                                 <p>58.990 &#8381</p>
                                 <p>Серьги "Черепашки"</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Детские серьги Черепашки с фианитами из красного золота 585 пробы. Средний вес: 1,5 гр.</p>
                             </div>
                             <div class="manblock childblock">
                                 <img class="imggrid" src="pic/childpodveska.webp" alt="">
                                 <p>18.990 &#8381</p>
                                 <p>Подвеска "Бабочка в цветах"</p>
                                 <button class="changemargin" id="buy">Купить</button>
+                                <p id="opis">Подвеска Бабочка с фианитами из красного золота 585 пробы. Средний вес: 1,9 гр.</p>
                             </div>
                             <div class="manblock childblock">
                                 <img class="imggrid" src="pic/childpodveska2.webp" alt="">
                                 <p>17.990 &#8381</p>
                                 <p>Подвеска "Яблоко"</p>
                                 <button id="buy">Купить</button>
+                                <p id="opis">Подвеска Яблоко с фианитами из красного золота 585 пробы. Средний вес: 2,01 гр.</p>
                             </div>
                             <div class="manblock childblock">
                                 <img class="imggrid" src="pic/childbraslet1.webp" alt="">
                                 <p>5.990 &#8381</p>
                                 <p>Браслет с эмалью из серебра</p>
                                 <button class="changemargin" id="buy">Купить</button>
+                                <p id="opis">Браслет с эмалью из серебра 925 пробы. Средний вес: 7,58 гр.</p>
                             </div>
                             <div class="manblock childblock">
                                 <img class="imggrid" src="pic/childbraslet2.webp" alt="">
                                 <p>20.990 &#8381</p>
                                 <p>Браслет "Медвежонок"</p>
                                 <button class="changemargin" id="buy">Купить</button>
+                                <p id="opis">Браслет с бриллиантами из красного золота 585 пробы. Характеристики вставок: 3 бриллиант кр 17 400-200 0,009 2/2. Средний вес изделия: 1,6 гр.</p>
                             </div>
                         </div>
                     </div>
@@ -216,5 +276,6 @@
         <script src="script/katalog.js"></script>
         <script src="script/scrollkat.js"></script>
         <script src="script/showmenu.js"></script>
+        <script src="script/buymodal.js"></script>
     </body>
 </html>
