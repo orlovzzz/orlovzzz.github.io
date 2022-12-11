@@ -212,3 +212,8 @@ input {
 #nameup, #surup, #errorlogup, #errorpassup, #errorreppass {
     width: 100%;
 }
+
+#sign-in-enter, #sign-up-b {
+    text-align: center;
+    padding-left: 0;
+}

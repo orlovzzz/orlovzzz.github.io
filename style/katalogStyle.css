@@ -63,8 +63,8 @@
     height: 30px;
     width: 100px;
     margin-top: 25px;
-    background: black;
     background: #fadadd;
+    color: black;
     border: none;
     border-radius: 5px;
     font-size: 120%;

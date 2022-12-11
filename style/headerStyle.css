@@ -79,11 +79,10 @@ a {
     position: absolute;
     border: none;
     left: 600px;
-
 }
 
 #blackmenu {
-    display: none;
+    display: grid;
     height: 430px;
     width: 100%;
     position: absolute;
@@ -95,6 +94,7 @@ a {
     z-index: 2;
     opacity: 0;
     transition: all 1s;
+    padding-top: 150px;
 }
 
 #blackmenu a {
@@ -112,5 +112,5 @@ a {
 }
 
 #blackmenu::after {
-    top: 530px;
+    top: 550px;
 }
