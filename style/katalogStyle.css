@@ -31,6 +31,7 @@
     grid-template-columns: repeat(6, 250px);
     justify-content: center;
     grid-column-gap: 70px;
+    border-radius: 10px;
 }
 
 .manblock {

@@ -82,7 +82,7 @@ a {
 }
 
 #blackmenu {
-    display: grid;
+    display: none;
     height: 430px;
     width: 100%;
     position: absolute;
