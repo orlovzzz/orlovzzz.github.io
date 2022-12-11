@@ -215,5 +215,6 @@ input {
 
 #sign-in-enter, #sign-up-b {
     text-align: center;
-    padding-left: 0;
+    padding-left: auto;
+    padding-right: auto;
 }
