@@ -294,3 +294,12 @@
 #zakaz {
     top: 135px;
 }
+
+.mankat {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imggrid {
+    width: auto;
+}
